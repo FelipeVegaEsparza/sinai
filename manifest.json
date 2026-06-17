@@ -1,7 +1,7 @@
 {
-  "name": "Radio Fusion Austral",
-  "short_name": "Fusion Austral",
-  "description": "Desde la Patagonia al Mundo",
+  "name": "Radio Sinai Online",
+  "short_name": "Sinai Online",
+  "description": "Radio Online",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait-primary",

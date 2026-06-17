@@ -1,11 +1,11 @@
 {
   "template": "app",
-  "project_name": "Radio Fusion Austral",
-  "clientId": "cmf4du07u000313x255b7jy2t",
-  "sonicpanel_port": "8002",
+  "project_name": "Radio Sinai Online",
+  "clientId": "cmqi0xe100021uijfikepjao3",
+  "sonicpanel_port": "8010",
   "ipstream_base_url": "https://dashboard.ipstream.cl/api/public",
-  "sonicpanel_stream_url": "https://stream2.ipstream.cl/8002/stream",
-  "sonicpanel_api_url": "https://stream2.ipstream.cl/cp/get_info.php?p=8002",
+  "sonicpanel_stream_url": "https://stream2.ipstream.cl/8010/stream",
+  "sonicpanel_api_url": "https://stream2.ipstream.cl/cp/get_info.php?p=8010",
   "cache_version": "v1",
   "offline_page": "/offline.html",
   "pagination": {
