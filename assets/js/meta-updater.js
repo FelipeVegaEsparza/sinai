@@ -25,7 +25,7 @@ class MetaUpdater {
       const basicData = await getBasicData();
       
       this.projectData = {
-        name: basicData.projectName || basicData.name || 'Radio Stream',
+        name: basicData.projectName || basicData.name || 'Radio Sinai Online',
         description: basicData.projectDescription || 'Escucha nuestra radio online en vivo. Música, noticias y entretenimiento las 24 horas del día.',
         logoUrl: basicData.logoUrl ? `https://dashboard.ipstream.cl${basicData.logoUrl}` : '/assets/icons/icon-512x512.png',
         coverUrl: basicData.coverUrl ? `https://dashboard.ipstream.cl${basicData.coverUrl}` : '/assets/icons/icon-512x512.png'
@@ -36,7 +36,7 @@ class MetaUpdater {
       console.error('MetaUpdater: Error loading from API:', error);
       // Fallback data
       this.projectData = {
-        name: 'Radio Stream',
+        name: 'Radio Sinai Online',
         description: 'Escucha nuestra radio online en vivo. Música, noticias y entretenimiento las 24 horas del día.',
         logoUrl: '/assets/icons/icon-512x512.png',
         coverUrl: '/assets/icons/icon-512x512.png'
